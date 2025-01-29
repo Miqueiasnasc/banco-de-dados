@@ -1,0 +1,192 @@
+<!Doctype html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="'IE=edge">
+    <title>
+        Doces da Gio
+    </title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">
+            <img alt="Doces da Gio Logo" src="imagens/logo.png" />
+            <span>
+                Doces da Gio
+            </span>
+        </div>
+        <nav>
+            <a href="#">
+                Home
+            </a>
+            <a href="#">
+                Shop
+            </a>
+            <a href="#">
+                Blog
+            </a>
+            <a href="#">
+                Receitas
+            </a>
+            <a href="#">
+                Contato
+            </a>
+        </nav>
+
+
+        <div class="search-bar">
+            <!-- Campo de pesquisa com id para ser referenciado no JS -->
+            <input id="search-input" placeholder="Pesquise um doce..." type="text" />
+            <!-- Botão de pesquisa com id para ser referenciado no JS -->
+            <button id="search-button">
+            <i class="fas fa-search"></i>
+            </button>
+            <!--campo de login-->
+            <a href="login.php">
+                <button id="login">
+                    Login
+                </button>
+            </a>
+        </div>
+        
+    </header>
+
+    <div class="card-container">
+    </div>
+
+    <!-- Lista de resultados -->
+    <ul id="result-list"></ul>
+
+
+    <section class="hero">
+        <h1>
+            Uma explosão de sabor em <br> 
+            <span>
+                cada pedaço
+            </span>
+        </h1>
+        <img alt="Imagem doces da gio" src="imagens/fotogiovanna.png" />
+    </section>
+    <section class="services">
+        <div class="service">
+            <i class="fas fa-truck">
+            </i>
+            <p>
+                Delivery
+            </p>
+        </div>
+        <div class="service">
+            <i class="fas fa-ice-cream">
+            </i>
+            <p>
+                Nossos doces
+            </p>
+        </div>
+        <div class="service">
+            <i class="fas fa-map-marker-alt">
+            </i>
+            <p>
+                Localização
+            </p>
+        </div>
+    </section>
+    <section class="about">
+        <div class="text">
+            <h2>
+                Seja para adoçar o seu dia ou celebrar ocasiões especiais, estamos aqui para tornar tudo mais doce e cheio de significado. 
+            </h2>
+            <p>
+                Explore nosso cardápio e descubra a magia que é feita especialmente para você!
+            </p>
+            <ul>
+                <li>
+                    <i class="fas fa-check">
+                    </i>
+                    Copo da felicidade
+                </li>
+                <li>
+                    <i class="fas fa-check">
+                    </i>
+                    Cestinha mágica
+                </li>
+                <li>
+                    <i class="fas fa-check">
+                    </i>
+                    Doce na travessa
+                </li>
+                <li>
+                    <i class="fas fa-check">
+                    </i>
+                    Bolo de pote
+                </li>
+                <li>
+                    <i class="fas fa-check">
+                    </i>
+                    cone trufado 
+                </li>
+                <li>
+                    <i class="fas fa-check">
+                    </i>
+                    pão de mel
+                </li>
+            </ul>
+            <button>
+                Acessar cardápio completo
+            </button>
+        </div>
+        <div class="image">
+            <img alt="Imagens dos doces" src="imagens/doces.png" />
+        </div>
+    </section>
+    <section class="ingredients">
+        <h2>
+            Ingredientes da melhor qualidade
+        </h2>
+        <div class="ingredient-list">
+            <div class="ingredient">
+                <img alt="morango" src="imagens/frutas.png" />
+                <p>
+                    Frutas frescas
+                </p>
+            </div>
+            <div class="ingredient">
+                <img alt="Chocolate" src="imagens/Chocolates de primeira linha.png" />
+                <p>
+                    Chocolates de primeira 
+                </p>
+            </div>
+            <div class="ingredient">
+                <img alt="Nutella" src="imagens/Nutella.png" />
+                <p>
+                    Nutella
+                </p>
+            </div>
+            <div class="ingredient">
+                <img alt="Maca" src="imagens/Ferrero Rocher.png" />
+                <p>
+                    Ferrero Rocher
+                </p>
+            </div>
+            <div class="ingredient">
+                <img alt="Baunilha" src="imagens/Baunilha.png" />
+                <p>
+                    Baunilha
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        Desenvolvido por Geovanna Moura e Miqueias Nascimento <br>
+        Todos os direitos reservados - 2025
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

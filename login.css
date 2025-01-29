@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #fae6f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container {
+    display: flex;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    max-width: 900px;
+    width: 100%;
+}
+.left {
+    padding: 40px;
+    flex: 1;
+}
+
+.left h2 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.left p {
+    font-size: 14px;
+    color: #888;
+    margin-bottom: 30px;
+}
+
+.left a{
+    color: #ff69b4;
+    text-decoration:none
+}
+
+.left .input-group {
+    margin-bottom: 20px;
+}
+.left .input-group input {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    font-size: 14px;
+}
+.left .input-group i {
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 15px;
+    color: #888;
+}
+.left .input-group {
+    position: relative;
+}
+.left .btn {
+    background-color: #ff69b4;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    font-size: 14px;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.left .social-login {
+    display: flex;
+    flex-direction: column;
+}
+.left .social-login button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    background-color: white;
+}
+.left .social-login button i {
+    margin-right: 10px;
+}
+
+
+.right {
+    flex: 1;
+    background-color: #ff69b4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.right img {
+    max-width: 100%;
+    border-radius: 20px;
+}
+.right .icon {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background-color: white;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+    .right {
+        display: none;
+    }
+}
